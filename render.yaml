@@ -1,0 +1,27 @@
+databases:
+  - name: scrollrot-db
+    plan: free
+    databaseName: scrollrot
+    user: scrollrot
+
+services:
+  - type: web
+    name: scrollrot-api
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: bash build.sh
+    startCommand: python -m gunicorn scrollrot_api.asgi:application -k uvicorn.workers.UvicornWorker
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: scrollrot-db
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: "False"
+      - key: PYTHON_VERSION
+        value: "3.12.10"
+      - key: ALLOWED_HOSTS
+        value: ".onrender.com,localhost,127.0.0.1"

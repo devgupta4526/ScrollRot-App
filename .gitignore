@@ -1,0 +1,40 @@
+# Android and IntelliJ
+.gradle/
+.idea/
+*.iml
+build/
+**/build/
+local.properties
+.externalNativeBuild/
+.cxx/
+captures/
+# Credentials
+*.jks
+*.keystore
+*.p12
+*.pem
+.env
+.env.*
+!.env.example
+service-account*.json
+google-services.json
+# Local data
+*.log
+.DS_Store
+Thumbs.db
+
+# Python & Django backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+backend/.venv/
+venv/
+env/
+ENV/
+backend/staticfiles/
+staticfiles/
+.pytest_cache/
+.coverage
+htmlcov/
+

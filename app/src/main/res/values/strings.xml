@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Scrollrot</string>
+    <string name="accessibility_label">Scrollrot reel counting</string>
+    <string name="accessibility_description">Detects possible short-video swipes in supported apps to calculate your daily scroll count. You can turn this off in Android settings.</string>
+</resources>
