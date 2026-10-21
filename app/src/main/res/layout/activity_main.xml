@@ -72,11 +72,11 @@
             android:textColor="@color/muted" android:textSize="14sp"/>
         <Button android:id="@+id/permissionButton" android:layout_width="match_parent" android:layout_height="56dp"
             android:layout_marginTop="12dp" android:background="@drawable/bg_button" android:backgroundTint="@null"
-            android:text="Enable tracking" android:allCaps="false" android:textStyle="bold"
+            android:text="Enable tracking" android:textAllCaps="false" android:textStyle="bold"
             android:textColor="@color/background" android:textSize="16sp"/>
         <Button android:id="@+id/demoButton" android:layout_width="match_parent" android:layout_height="52dp"
             android:layout_marginTop="12dp" android:background="@drawable/bg_secondary" android:backgroundTint="@null"
-            android:text="Preview one reel (demo)" android:allCaps="false"
+            android:text="Preview one reel (demo)" android:textAllCaps="false"
             android:textColor="@color/white" android:textSize="15sp"/>
         <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
             android:layout_marginTop="18dp" android:gravity="center" android:text="PRIVATE BY DEFAULT  ·  NO LOGIN REQUIRED"

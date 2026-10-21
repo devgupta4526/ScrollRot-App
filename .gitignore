@@ -37,4 +37,7 @@ staticfiles/
 .pytest_cache/
 .coverage
 htmlcov/
-
+# Screenshots & temp captures
+device_screen.png
+screenshot_device.png
+*.png
