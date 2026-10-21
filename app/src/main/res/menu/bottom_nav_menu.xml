@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_you"
+        android:icon="@drawable/ic_nav_you"
+        android:title="You" />
+    <item
+        android:id="@+id/nav_battle"
+        android:icon="@drawable/ic_nav_battle"
+        android:title="Battle" />
+    <item
+        android:id="@+id/nav_progress"
+        android:icon="@drawable/ic_nav_progress"
+        android:title="Progress" />
+</menu>

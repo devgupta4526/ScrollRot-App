@@ -1,9 +1,9 @@
 <accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
     android:description="@string/accessibility_description"
     android:packageNames="com.instagram.android,com.instagram.lite,com.google.android.youtube,com.facebook.katana,com.facebook.lite,com.snapchat.android"
-    android:accessibilityEventTypes="typeViewScrolled|typeWindowStateChanged"
+    android:accessibilityEventTypes="typeViewScrolled|typeWindowStateChanged|typeViewSelected|typeWindowContentChanged"
     android:accessibilityFeedbackType="feedbackGeneric"
-    android:accessibilityFlags="flagReportViewIds"
-    android:notificationTimeout="100"
+    android:accessibilityFlags="flagReportViewIds|flagRetrieveInteractiveWindows"
+    android:notificationTimeout="50"
     android:canRetrieveWindowContent="true"
     android:isAccessibilityTool="false" />
